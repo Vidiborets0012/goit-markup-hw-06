@@ -1,0 +1,160 @@
+body {
+    font-family: Roboto, Raleway, sans-serif;
+    background: #fff;
+    /* font-weight: 400; */
+    /* font-size: 16px; */
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ==================== HEADER ====================== */
+.nav-link-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+/* turn studio */
+.accent {
+    color: #2e2f42;
+}
+
+.nav {
+    font-weight: 500;
+    /* font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em; */
+    color: #2e2f42;
+}
+
+.address {
+    /* font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em; */
+    color: #434455;
+}
+
+
+.nav-link:hover, .nav-link:focus, .address-link:hover,
+.address-link:focus {
+    color: #4D5AE5;
+}
+
+.nav-link:active {
+    color: #404BBF;
+}
+
+/* .address-link:hover, .address-link:focus {
+    color: #4D5AE5;
+} */
+
+/* remove all markers in ul */
+ul {
+    list-style-type: none;
+}
+
+/* remove the bottom underline in all links */
+a {
+    text-decoration: none;
+}
+
+/* ==================== Typography ====================== */
+
+h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    /* letter-spacing: 0.02em; */
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    /* letter-spacing: 0.02em; */
+    text-align: center;
+    color: #2e2f42;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
+/* ==================== MAIN-HERO ====================== */
+.main-hero {
+    background: #2e2f42;
+}
+
+.main-hero-button {
+    /* border-radius: 4px;
+    padding: 16px 32px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
+    background: #4d5ae5;
+    font-weight: 500;
+    /* font-size: 16px;
+    line-height: 150%; */
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.main-hero-button:hover, .main-hero-button:focus {
+    color: #4D5AE5;
+    
+}
+
+.main-hero-button:active {
+    color: #404BBF;
+    
+}
+
+/* ==================== main-advant ====================== */
+/* .main-advant {
+
+} */
+
+/* ==================== main-team ====================== */
+.main-team {
+    background: #f4f4fd;
+    /* text-align: center; */
+}
+
+/* ==================== footer ====================== */
+.footer {
+    /* font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em; */
+    color: #f4f4fd;
+    background: #2e2f42;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+    
+    /* turn studio */
+    .footer-accent {
+        color: #f4f4fd;
+    }
