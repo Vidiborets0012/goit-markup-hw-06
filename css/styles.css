@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: Roboto, sans-serif;
     background: #fff;
     /* font-weight: 400; */
     /* font-size: 16px; */
@@ -29,21 +29,36 @@ body {
     /* font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em; */
+    /* color: #2e2f42; */
+}
+
+.nav-link {
     color: #2e2f42;
 }
 
-.address {
+.nav-link:hover, .nav-link:focus {
+    color: #404bbf;
+}
+
+.header-addres {
+    font-style: normal
+}
+
+/* .address {
     /* font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em; */
+    /* color: #434455; */
+/* } */ */
+
+.address-link {
     color: #434455;
 }
 
 
-.nav-link:hover, .nav-link:focus, .address-link:hover,
-.address-link:focus {
-    color: #4D5AE5;
+.address-link:hover, .address-link:focus {
+    color: #404bbf;
 }
 
 .nav-link:active {
@@ -65,33 +80,74 @@ a {
 }
 
 /* ==================== Typography ====================== */
-
-h1 {
+.main-hero-header {
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+
 }
 
-h2 {
+/* h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em; 
+    text-align: center;
+    color: #fff;
+} */
+
+.main-advant-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 
-h3 {
+.main-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+} */
+
+.subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+/* h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+} */
 
+.text {
+    /* font-weight: 400; */
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* ==================== MAIN-HERO ====================== */
 .main-hero {
@@ -105,22 +161,22 @@ h3 {
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
     background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    /* font-size: 16px;
-    line-height: 150%; */
+    font-size: 16px;
+    line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
 }
 
 .main-hero-button:hover, .main-hero-button:focus {
-    color: #4D5AE5;
+    background-color: #404BBF;
     
 }
 
 .main-hero-button:active {
     color: #404BBF;
-    
 }
 
 /* ==================== main-advant ====================== */
@@ -130,8 +186,12 @@ h3 {
 
 /* ==================== main-team ====================== */
 .main-team {
-    background: #f4f4fd;
-    /* text-align: center; */
+    /* background: #f4f4fd; */
+    text-align: center;
+}
+
+.main-team-list-item {
+    background-color: #FFFFFF;
 }
 
 /* ==================== footer ====================== */
