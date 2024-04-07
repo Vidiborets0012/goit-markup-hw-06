@@ -38,10 +38,11 @@ body {
 
 .nav-link:hover, .nav-link:focus {
     color: #404bbf;
-}
+    }
 
 .header-addres {
-    font-style: normal
+    font-style: normal;
+    color: #434455;
 }
 
 /* .address {
@@ -52,9 +53,9 @@ body {
     /* color: #434455; */
 /* } */ */
 
-.address-link {
+/* .address-link {
     color: #434455;
-}
+} */
 
 
 .address-link:hover, .address-link:focus {
@@ -149,6 +150,13 @@ a {
     color: #434455;
 }
 
+.footer-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
 /* ==================== MAIN-HERO ====================== */
 .main-hero {
     background: #2e2f42;
@@ -186,12 +194,17 @@ a {
 
 /* ==================== main-team ====================== */
 .main-team {
-    /* background: #f4f4fd; */
+    background: #f4f4fd;
     text-align: center;
 }
 
 .main-team-list-item {
     background-color: #FFFFFF;
+}
+
+/* ==================== Portfolio ====================== */
+.main-portfolio {
+    text-align: center;
 }
 
 /* ==================== footer ====================== */
