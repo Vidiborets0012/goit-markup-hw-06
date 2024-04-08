@@ -42,20 +42,24 @@ body {
 
 .header-addres {
     font-style: normal;
-    color: #434455;
+    /* color: #434455; */
 }
 
-/* .address {
-    /* font-weight: 400;
+/* .address-list {
+    font-weight: 400;
     font-size: 16px;
     line-height: 150%;
-    letter-spacing: 0.02em; */
-    /* color: #434455; */
-/* } */ */
-
-/* .address-link {
+    letter-spacing: 0.02em;
     color: #434455;
 } */
+
+/* .address-list-item {
+    color: #434455;
+} */
+
+.address-link {
+    color: #434455;
+}
 
 
 .address-link:hover, .address-link:focus {
