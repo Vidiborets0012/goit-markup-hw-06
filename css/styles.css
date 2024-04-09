@@ -180,6 +180,8 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    padding: 0;
+    border: none;
 }
 
 .main-hero-button:hover, .main-hero-button:focus {
