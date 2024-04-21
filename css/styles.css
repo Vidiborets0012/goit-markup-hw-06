@@ -1,3 +1,37 @@
+/* ==================== GENERAL STYLES ====================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
 body {
     font-family: Roboto, sans-serif;
     background: #fff;
@@ -49,13 +83,6 @@ body {
     color: #404BBF;
 }
 
-ul {
-    list-style-type: none;
-}
-
-a {
-    text-decoration: none;
-}
 
 /* ==================== Typography ====================== */
 .main-hero-header {
@@ -123,7 +150,7 @@ a {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer;
+    /* cursor: pointer; */
     }
 
 .main-hero-button:hover, .main-hero-button:focus {
