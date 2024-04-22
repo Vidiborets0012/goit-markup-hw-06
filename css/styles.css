@@ -134,15 +134,8 @@ body {
 
 
 /* ==================== Typography ====================== */
-.main-hero-header {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
 
-}
+
 
 .main-advant-header {
     font-weight: 700;
@@ -180,8 +173,30 @@ body {
 }
 
 /* ==================== MAIN-HERO ====================== */
+
 .main-hero {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background: #2e2f42;
+}
+
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    padding-left: 331px;
+    padding-right: 331px;
+}
+
+.main-hero-header {
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
 }
 
 .main-hero-button {
@@ -192,8 +207,15 @@ body {
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    /* cursor: pointer; */
-    }
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    display: block;
+    margin: 0 auto;
+}
 
 .main-hero-button:hover, .main-hero-button:focus {
     background-color: #404BBF;
