@@ -13,9 +13,8 @@ p {
 
 ul,
 ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
@@ -55,6 +54,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .section-paddings {
@@ -134,21 +134,6 @@ body {
 
 
 /* ==================== Typography ====================== */
-
-
-
-.main-advant-header {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-
-
-
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -165,6 +150,9 @@ body {
     color: #434455;
 }
 
+
+
+
 .footer-text {
     font-size: 16px;
     line-height: 150%;
@@ -179,6 +167,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background: #2e2f42;
+    /* padding-bottom: 60px; */
 }
 
 .hero-container {
@@ -227,6 +216,49 @@ body {
 
 /* ==================== main-advant ====================== */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-advant {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.advant-list {
+    display: flex;
+    gap: 24px;
+}
+
+.advant-list-item {
+    width: calc((100% - 72px)/4)
+}
+
+.advant-list-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.advant-list-text {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* ==================== main-team ====================== */
 .main-team {
