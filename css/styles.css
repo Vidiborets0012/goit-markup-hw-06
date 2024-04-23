@@ -58,10 +58,10 @@ body {
     margin-bottom: 72px;
 }
 
-.section-paddings {
+/* .section-paddings {
     padding-top: 60px;
     padding-bottom: 60px;
-}
+} */
 
 /* ==================== HEADER ====================== */
 
@@ -202,7 +202,7 @@ body {
 
 .main-advant {
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 }
 
 .advant-list {
@@ -235,6 +235,8 @@ body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background: #f4f4fd;
 }
 
@@ -246,7 +248,7 @@ body {
 
 .main-team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     margin-bottom: 120px;
 }
 
@@ -268,6 +270,8 @@ body {
     max-width: 232px;
     margin-left: 16px;
     margin-right: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-list-fullname {
