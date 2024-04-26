@@ -376,6 +376,18 @@ body {
     padding-bottom: 100px;
 }
 
+.footer-container {
+    display: flex;
+}
+
+.page-footer-text {
+    margin-right: 120px;
+}
+
+.page-footer-social {
+    max-width: 208px;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -396,5 +408,16 @@ body {
     max-width: 264px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    
+}
+
+.footer-social-subtitle {
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-cocial-list-link {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
 }
