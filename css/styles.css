@@ -291,6 +291,27 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
+}
+
+.team-cocial-list-link{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+}
+
+.cocial-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+}
+
+.cocial-link {
+    fill: #fff;
 }
 
 /* ==================== main-portfolio ====================== */
