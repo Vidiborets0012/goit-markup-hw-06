@@ -147,7 +147,7 @@ body {
     color: #404BBF;
 }
 
-.social-link {
+.team-social-link, .footer-social-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,9 +159,15 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.team-social-link:hover,
+.team-social-link:focus {
     background-color: #404bbf;;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;;
+    ;
 }
 
 /* ==================== MAIN-HERO ====================== */
@@ -259,11 +265,6 @@ body {
     margin-bottom: 8px;
 }
 
-.advant-icon {
-    width: 64px;
-    height: 64px;
-}
-
 .advant-list-item {
     width: calc((100% - 72px)/4)
 }
@@ -338,10 +339,6 @@ body {
     gap: 24px;
 }
 
-.social-icons {
-    width: 16px;
-    height: 16px;
-}
 /* ==================== main-portfolio ====================== */
 
 .main-portfolio {
@@ -478,7 +475,3 @@ body {
     gap: 16px;
 }
 
-.social-icons {
-    width: 24px;
-    height: 24px;
-}
