@@ -50,7 +50,7 @@ img {
 .main-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 111%;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -149,7 +149,7 @@ img {
   color: #404bbf;
 } */
 
-.team-social-link,
+/* .team-social-link,
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -170,7 +170,7 @@ img {
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: #31d0aa;
-}
+} */
 
 /* ==================== MAIN-HERO ====================== */
 
@@ -198,6 +198,7 @@ img {
   color: #fff;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 48px;
   margin-bottom: 48px;
 }
 
@@ -290,8 +291,8 @@ img {
 
 /* ==================== main-team ====================== */
 .main-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background: #f4f4fd;
 }
 
@@ -300,13 +301,13 @@ img {
   gap: 24px;
 }
 
-.main-team-list-item {
+/* .main-team-list-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
   background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
+} */
 
 .team-list-card-content {
   max-width: 232px;
