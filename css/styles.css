@@ -421,6 +421,10 @@ body {
     row-gap: 48px;
   }
 
+  .advant-list-subtitle {
+    text-align: left;
+  }
+
   .advant-list-item {
     width: calc((100% - 24px) / 2);
   }
@@ -455,6 +459,7 @@ body {
   }
 
   .advant-list-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -522,7 +527,7 @@ body {
 @media screen and (min-width: 768px) {
   .team-container {
     max-width: 768px;
-    padding-bottom: 96px;
+    margin-bottom: 96px;
   }
 
   .main-team-list {
@@ -790,12 +795,12 @@ body {
     justify-content: left;
     align-items: baseline;
     gap: 72px 24px;
+    width: 584px;
   }
 
   .page-footer-text {
     align-items: start;
     max-width: 264px;
-    margin-left: 92px;
   }
 
   .page-footer-social {
@@ -804,7 +809,6 @@ body {
   .page-footer-subscribe {
     display: block;
     max-width: 453px;
-    margin-left: 92px;
   }
 
   .footer-subscribe-subtitle {
@@ -824,6 +828,7 @@ body {
   .footer-container {
     flex-wrap: nowrap;
     gap: 0;
+    width: 1128px;
   }
 
   .page-footer-text {
@@ -1135,6 +1140,7 @@ body {
   }
 
   .mobile-menu-address-link {
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
